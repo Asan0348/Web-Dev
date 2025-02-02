@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fafafa;
+    color: #262626;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%; 
+    margin: 0 auto; 
+    min-height: 100vh;
+  }
+  
+  
+  
+  .left-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  
+  .phone-preview {
+    width: 300px;
+    height: auto;
+  }
+  
+  
+  .right-form {
+    flex: 1;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-box {
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    padding: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .instagram-logo {
+    font-family: 'Trebuchet MS', cursive, sans-serif;
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-weight: 300;
+    color: #262626;
+  }
+  
+  .input-field {
+    width: 100%;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    background: #fafafa;
+    padding: 10px;
+    margin-bottom: 6px;
+    font-size: 14px;
+  }
+  
+  .btn-login {
+    width: 100%;
+    background-color: #3897f0;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: 600;
+    padding: 8px;
+    margin: 8px 0;
+    cursor: pointer;
+  }
+  
+  .btn-login:hover {
+    background-color: #3183d7;
+  }
+  
+  .separator {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+    color: #8e8e8e;
+  }
+  
+  .separator .line {
+    flex: 1;
+    height: 1px;
+    background-color: #dbdbdb;
+  }
+  
+  .separator p {
+    margin: 0 18px;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  
+  .btn-fb {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    color: #385185;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 12px;
+  }
+  
+  .btn-fb:hover {
+    text-decoration: underline;
+  }
+  
+  .forgot-link {
+    display: block;
+    font-size: 12px;
+    color: #00376b;
+    text-decoration: none;
+  }
+  
+  .forgot-link:hover {
+    text-decoration: underline;
+  }
+  
+  .signup-box {
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .signup-box p {
+    font-size: 14px;
+  }
+  
+  .signup-box a {
+    color: #3897f0;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .signup-box a:hover {
+    text-decoration: underline;
+  }
+  
+  .app-download {
+    text-align: center;
+  }
+  
+  .app-download p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .app-stores img {
+    height: 40px;
+    margin: 0 5px;
+  }
+  
